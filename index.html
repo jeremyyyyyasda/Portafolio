@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Jeremy CH Garcia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Presentación Personal -->
+    <section id="presentacion" class="presentacion">
+        <div class="container">
+            <div class="perfil">
+                <img src="fotodeperfil.jpeg" alt="Foto de perfil" class="foto-perfil">
+                <h1>Jeremy Joel Chancasanampa Garcia</h1>
+                <h2>Curso de Base de Datos 2 </h2>
+                <p class="bio">
+                    Base de datos 2 es un curso que se enfoca en el diseño, implementación y gestión de bases de datos avanzadas. En este curso, los estudiantes aprenderán sobre temas como la normalización, el modelado de datos, la optimización de consultas y la administración de bases de datos. A través de proyectos prácticos, los estudiantes aplicarán sus conocimientos para crear y gestionar bases de datos eficientes y escalables.
+                </p>
+                <div class="contacto">
+                    <a href="mailto:b123_156@outlook.com" class="contact-btn"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://www.linkedin.com/in/jeremy-joel-chancasanampa-garcia-a31638404/" class="contact-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/jeremyyyyyasda" class="contact-btn"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unidades del Curso -->
+    <section id="unidades" class="unidades">
+        <div class="container">
+            <h2>Mis Proyectos por Unidades</h2>
+            <div class="grid-unidades">
+                <div class="unidad-card" data-unidad="1">
+                    <h3>Unidad 1</h3>
+                    <p>Tema de la Unidad 1</p>
+                    <div class="semanas">
+                        <div class="semana" data-semana="1-1">Semana 1</div>
+                        <div class="semana" data-semana="1-2">Semana 2</div>
+                        <div class="semana" data-semana="1-3">Semana 3</div>
+                        <div class="semana" data-semana="1-4">Semana 4</div>
+                    </div>
+                </div>
+
+                <div class="unidad-card" data-unidad="2">
+                    <h3>Unidad 2</h3>
+                    <p>Tema de la Unidad 2</p>
+                    <div class="semanas">
+                        <div class="semana" data-semana="2-1">Semana 1</div>
+                        <div class="semana" data-semana="2-2">Semana 2</div>
+                        <div class="semana" data-semana="2-3">Semana 3</div>
+                        <div class="semana" data-semana="2-4">Semana 4</div>
+                    </div>
+                </div>
+
+                <div class="unidad-card" data-unidad="3">
+                    <h3>Unidad 3</h3>
+                    <p>Tema de la Unidad 3</p>
+                    <div class="semanas">
+                        <div class="semana" data-semana="3-1">Semana 1</div>
+                        <div class="semana" data-semana="3-2">Semana 2</div>
+                        <div class="semana" data-semana="3-3">Semana 3</div>
+                        <div class="semana" data-semana="3-4">Semana 4</div>
+                    </div>
+                </div>
+
+                <div class="unidad-card" data-unidad="4">
+                    <h3>Unidad 4</h3>
+                    <p>Tema de la Unidad 4</p>
+                    <div class="semanas">
+                        <div class="semana" data-semana="4-1">Semana 1</div>
+                        <div class="semana" data-semana="4-2">Semana 2</div>
+                        <div class="semana" data-semana="4-3">Semana 3</div>
+                        <div class="semana" data-semana="4-4">Semana 4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Semana -->
+    <div id="modalSemana" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="contenidoSemana">
+                <!-- Contenido dinámico de la semana -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
